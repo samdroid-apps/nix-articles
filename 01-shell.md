@@ -2,10 +2,10 @@
 $title@: Environments with Nix Shell - Learning Nix pt 1
 summary: An introduction for how to run Nix code
 $dates:
-    published: ?? Jan 2018
+    published: 29 January 2018
 $order: 201
-hero: url(/static/images/blog-asteroid-fastboot.small.jpg)
-thumb: /static/images/blog-asteroid-fastboot.small.jpg
+hero: url(/static/images/201/hero.jpg)
+thumb: /static/images/201/hero.jpg
 ---
 
 To start with learning Nix; we need a way to experiment.  Nix is a programming language, so we need a way to run our programs.  Nix is also a package/environment management tool, so we need a way to test our environments.
@@ -124,7 +124,7 @@ Since `mkDerivation` returns a value, our whole file returns a value when it is 
 
 So this value is then used by the `nix-shell` program, and hey presto: we have a new environment.
 
-# Extension: the shellHook attribute
+## Extension: the shellHook attribute
 
 When we are making our derivation for our environment, we can pass another useful value to the `mkDerivation` function.  This is the `shellHook`:
 
@@ -166,7 +166,7 @@ __        __   _                          _
 
 The shellHook property is very useful for setting environment variables and the like.
 
-# Example Usage: python virtualenv on steroids
+## Example Usage: python virtualenv on steroids
 
 We can actually use this to make development environments when writing applications.  For example, say I'm developing a Python3 Flask application, but need the ffmpeg binary installed for the app to process some videos.  With virtualenv, you can't specify all the binary dependencies.  With Nix, you can use this `.nix` file:
 
@@ -189,3 +189,11 @@ stdenv.mkDerivation rec {
 
 That simply combines our knowledge from before.  It gives me a shell with the
 packages I request (python3.6, flask and ffmpeg) inside the PATH and PYTHONPATH.  It then runs the shellHook and sets the extra environment variables (like API_KEY) that my application needs to run.
+
+## Up Next
+
+So Variables are a Thing - Learning Nix pt 2
+
+Follow the series [on GitHub](https://github.com/samdroid-apps/nix-articles)
+
+*Hero image from [nix-artwork by Luca Bruno](https://github.com/NixOS/nixos-artwork/blob/master/gnome/Gnome_Dark.png)*
