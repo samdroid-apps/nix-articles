@@ -9,7 +9,7 @@ This is a series of articles about Nix.  This is for people who want to use Nix 
 It is a 5 part series so far:
 
 1. [Environments with Nix Shell](https://www.sam.today/blog/environments-with-nix-shell-learning-nix-pt-1/)
-2. So Variables are a Thing
+2. [So Variables are a Thing](https://www.sam.today/blog/so-variables-are-a-thing-learning-nix-pt-2/)
 3. Creating a super simple derivation (package)
 4. Derivations 102
 5. Grokking Nix functions with real usage examples
