@@ -10,7 +10,7 @@ It is a 5 part series so far:
 
 1. [Environments with Nix Shell](https://www.sam.today/blog/environments-with-nix-shell-learning-nix-pt-1/)
 2. [So Variables are a Thing](https://www.sam.today/blog/so-variables-are-a-thing-learning-nix-pt-2/)
-3. Creating a super simple derivation (package)
+3. [Creating a super simple derivation (package)](https://www.sam.today/blog/creating-a-super-simple-derivation-learning-nix-pt-3/)
 4. Derivations 102
 5. Grokking Nix functions with real usage examples
 
