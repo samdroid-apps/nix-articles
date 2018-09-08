@@ -9,7 +9,7 @@ thumb: /static/images/204/hero.jpg
 ---
 
 
-This guide will build on the previous [two](/blog/environments-with-nix-shell-learning-nix-pt-1/) [guides](/blog/so-variables-are-a-thing-learning-nix-pt-2/), and look at creating your first useful _derivation_ (or "package").
+This guide will build on the previous [two][part2] [guides][part1], and look at creating your first useful _derivation_ (or "package").
 
 This will teach you how to package a shell script.
 
@@ -166,8 +166,12 @@ Some of the more simple build support functions (like `pkgs.writeShellScriptBin`
 
 ## Up Next
 
-Derivations 102 - Learning Nix pt 4
+[Derivations 102 - Learning Nix pt
+4](https://www.sam.today/blog/derivations-102-learning-nix-pt-4)
 
 Follow the series [on GitHub](https://github.com/samdroid-apps/nix-articles)
 
 *Hero image from [nix-artwork by Eric Sagnes](https://github.com/NixOS/nixos-artwork/blob/master/wallpapers/nix-wallpaper-mosaic-blue.png)*
+
+[part1]: https://www.sam.today/blog/environments-with-nix-shell-learning-nix-pt-1/ "Environments with Nix Shell - Learning Nix pt 1"
+[part2]: https://www.sam.today/blog/so-variables-are-a-thing-learning-nix-pt-2/

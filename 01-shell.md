@@ -192,7 +192,8 @@ packages I request (python3.6, flask and ffmpeg) inside the PATH and PYTHONPATH.
 
 ## Up Next
 
-So Variables are a Thing - Learning Nix pt 2
+[So Variables are a Thing - Learning Nix pt
+2](https://www.sam.today/blog/so-variables-are-a-thing-learning-nix-pt-2/)
 
 Follow the series [on GitHub](https://github.com/samdroid-apps/nix-articles)
 

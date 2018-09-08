@@ -276,7 +276,8 @@ buildInputs =
 
 ## Up Next
 
-Creating a super simple derivation - Learning Nix pt 3
+[Creating a super simple derivation - Learning Nix pt
+3](https://www.sam.today/blog/creating-a-super-simple-derivation-learning-nix-pt-3/)
 
 Follow the series [on GitHub](https://github.com/samdroid-apps/nix-articles)
 
