@@ -16,7 +16,7 @@ Basically, a derivation is a pure function that takes some inputs (dependencies,
 
 ## Derivation Examples
 
-It's important to note that literally everting in NixOS is built around derivations:
+It's important to note that literally everything in NixOS is built around derivations:
 
 * Applications?  Of course they are derivations.
 * Configuration files?  In NixOS, they are a derivation that takes the nix configuration and outputs an appropriate config file for the application.
