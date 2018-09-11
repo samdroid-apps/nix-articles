@@ -1,6 +1,6 @@
 TODO: 
 
-* put a simple example of using let-in inside a function at the top
+* put a simple example of using let-in inside a function at the top: maybe done
 * put in a conclusion
 * emphasise that example 3 and 4 are from my actual configuration
 
@@ -36,6 +36,24 @@ We can evaluate that code, and we've made our first function:
 > nix-instantiate --eval test.nix
 5
 ```
+
+Since functions bodies are just expressions, we can use more complicated
+expressions inside them, such as _let-in_:
+
+```nix
+let
+  # the parenthesis are not nessecary, but help make this example clearer
+  tripple = x: (
+    let
+      double = x + x;
+    in
+      x + double
+  );
+in
+  tripple 4
+```
+
+
 
 ## Taking multiple arguments
 
