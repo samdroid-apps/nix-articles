@@ -305,7 +305,7 @@ For example, there is `pkgs.python36Packages.buildPythonPackage`, which is a sup
 When making packages, there are helpful resources to check:
 
 * [Chapter 9. Support for specific programming languages and frameworks](https://nixos.org/nixpkgs/manual/#chap-language-support) of the NixPkgs manual.  This documents language specific _build support_ functions.
-* The [NixPkgs repository](https://github.com/nixOs/nixpkgs).  Many packages you make could be similar to packages that already exist.  (Note that packages inside of NixPkgs are written in a bit of a different way to ours; since they can't reference NixPkgs directly.  Instead, they are structured as functions.  If a package depends on another, it takes the other packages as an argument.  For more on this subject; see [Nix Pill 13: Callpackage Design Patten](https://nixos.org/nixos/nix-pills/callpackage-design-pattern.html))
+* The [NixPkgs repository](https://github.com/nixOs/nixpkgs).  Many packages you make could be similar to packages that already exist.  (Note that packages inside of NixPkgs are written in a bit of a different way to ours; since they can't reference NixPkgs directly.  Instead, they are structured as functions.  If a package depends on another, it takes the other packages as an argument.  For more on this subject; see [Nix Pill 13: Callpackage Design Pattern](https://nixos.org/nixos/nix-pills/callpackage-design-pattern.html))
 
 ## Up Next
 
