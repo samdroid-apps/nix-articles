@@ -56,7 +56,7 @@ You can [see all the phases in the docs](https://nixos.org/nixpkgs/manual/#sec-s
 
 # Example #1: A static site
 
-Nix makes writing packages really easy; and with NixOps (which we'll learn later) Nix derivations are automagiaclly built and deployed.
+Nix makes writing packages really easy; and with NixOps (which we'll learn later) Nix derivations are automagically built and deployed.
 
 First we need to answer the question of how we would build the static site ourself.  This is a jekyll site, so you'd run the jekyll command
 
